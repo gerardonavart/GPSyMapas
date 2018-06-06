@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GPSyMapas.GPS"
+             Title="GPS">
+    <ContentPage.Content>
+        <StackLayout Margin="0,25,0,0">
+            <Button Text="Localización" Clicked="Posicion" BackgroundColor="#EEE"/>
+            <Label Text="Latitud" FontSize="20" HorizontalOptions="CenterAndExpand"/>
+            <Label x:Name="LatitudLabel1" FontSize="30" HorizontalOptions="CenterAndExpand"/>
+            <Label Text="Longitud" FontSize="20" HorizontalOptions="CenterAndExpand"/>
+            <Label x:Name="LongitudLabel1" FontSize="30" HorizontalOptions="CenterAndExpand"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
